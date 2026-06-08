@@ -44,8 +44,4 @@ Best options:
 
 Avoid relying on Discord CDN URLs as permanent image hosting; they can change or expire.
 
-
-## Latest update
-
-- Removed the top logo/title text block above the navigation on every page.
-- Replaced the custom Raider.IO script section with the official Raider.IO boss progress widget iframe on `raiding.html`.
+Update note: Home nav is now labelled Welcome Home. The separate Welcome Home tab/page has been removed. Raiding uses the Raider.IO mythic boss progress image widget.
