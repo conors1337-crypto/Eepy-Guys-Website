@@ -113,3 +113,45 @@
     min-height: 460px;
   }
 }
+
+/* Final raid progress layout fix: equal-width cards, no cropped titles, centered intro */
+.raid-hero-panel .lead{
+  max-width:none;
+  width:100%;
+  margin:0 auto;
+  text-align:center;
+}
+.raid-progress-visual{
+  grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+  align-items:stretch;
+  max-width:980px;
+  width:100%;
+  text-align:left;
+}
+.raid-tier-card{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+.raid-tier-card h3{
+  max-width:100%;
+  overflow-wrap:anywhere;
+  word-break:normal;
+  font-size:clamp(2rem,3.4vw,3rem) !important;
+  line-height:.98;
+}
+.raid-scoreline{
+  margin-top:auto;
+}
+@media(max-width:900px){
+  .raid-progress-visual{
+    grid-template-columns:1fr !important;
+  }
+  .raid-tier-card{
+    text-align:center;
+  }
+  .raid-scoreline{
+    justify-content:center;
+  }
+}
