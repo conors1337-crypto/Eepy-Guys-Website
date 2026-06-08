@@ -12,3 +12,20 @@
 @media(max-width:800px){.raider-widget{min-height:430px}.raider-widget-wrap{padding:8px;border-radius:18px}}
 
 .raider-widget-img{display:block;max-width:100%;height:auto;margin:0 auto;border:0;}
+
+
+/* Polished homepage update */
+.home-shell{width:min(1120px,calc(100% - 28px));padding-top:10px}
+.home-masthead{margin:0 auto 12px;border:1px solid rgba(242,196,91,.45);border-radius:0 0 26px 26px;overflow:hidden;box-shadow:0 26px 70px rgba(0,0,0,.5);background:#061719}
+.home-masthead img{display:block;width:100%;height:auto;max-height:275px;object-fit:cover;object-position:center}
+.home-shell .nav-wrap{margin-top:-18px;margin-bottom:18px;border-radius:8px;padding:8px;max-width:880px;background:rgba(7,26,29,.9)}
+.home-shell .nav a{border-radius:6px;min-height:38px;text-transform:uppercase;font-size:.78rem;letter-spacing:.04em;padding:8px 14px}
+.home-hero{grid-template-columns:1.15fr .85fr;padding:clamp(26px,4.5vw,48px);border-radius:12px;margin-bottom:18px;border-color:rgba(255,122,26,.65);background:linear-gradient(180deg,rgba(7,26,29,.92),rgba(7,26,29,.78))}
+.home-hero h2{font-family:Georgia,serif;font-weight:900;letter-spacing:.01em;color:#fff1c2;text-shadow:0 3px 0 rgba(0,0,0,.35)}
+.home-hero .hero-art img{max-height:330px}
+.left-actions{justify-content:flex-start}.left-actions .button{border-radius:8px;text-transform:uppercase;letter-spacing:.03em}
+.welcome-strip{text-align:center;margin:6px auto 22px;max-width:850px}.welcome-strip img{height:44px;object-fit:contain}.welcome-strip h2{font-family:Georgia,serif;text-transform:uppercase;color:var(--gold);font-size:clamp(1.7rem,3vw,2.45rem);line-height:1;margin:0}.welcome-strip p{max-width:620px;margin:8px auto;color:#ffeec0}.pill-row{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:15px}.pill-row span{display:inline-flex;padding:8px 20px;border:1px solid rgba(242,196,91,.35);border-radius:6px;background:rgba(7,26,29,.72);color:#f7cf73;font-weight:800}
+.home-card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:0 auto 22px}.feature-card{border:1px solid rgba(242,196,91,.55);background:linear-gradient(180deg,rgba(7,26,29,.82),rgba(7,26,29,.95));box-shadow:var(--shadow);border-radius:8px;overflow:hidden;text-align:center}.feature-card img{width:100%;height:154px;object-fit:cover;display:block;border-bottom:1px solid rgba(242,196,91,.25)}.feature-card div{padding:22px}.feature-card h3{font-family:Georgia,serif;text-transform:uppercase;color:var(--gold);font-size:1.55rem;margin:0 0 8px}.feature-card p{margin:0 0 16px}.feature-card a{display:inline-flex;align-items:center;justify-content:center;padding:10px 18px;border:1px solid rgba(100,212,200,.55);border-radius:5px;text-decoration:none;color:#fff1c2;background:linear-gradient(180deg,#143d36,#0b211e);font-weight:900;text-transform:uppercase;letter-spacing:.04em}
+.discord-callout{display:grid;grid-template-columns:260px 1fr auto;align-items:center;gap:24px;margin:0 auto 26px;border:1px solid rgba(242,196,91,.5);border-radius:8px;padding:18px 24px;background:linear-gradient(90deg,rgba(7,26,29,.92),rgba(16,37,31,.82));box-shadow:var(--shadow)}.discord-callout img{width:100%;max-height:130px;object-fit:contain}.discord-callout h2{font-family:Georgia,serif;text-transform:uppercase;color:var(--gold);margin:0 0 4px}.discord-callout p{margin:0;color:#ffeec0}
+.raider-widget-wrap{max-width:760px;min-height:260px;padding:0;border-radius:10px;background:rgba(0,0,0,.3)}.raider-widget{display:block;width:100%;height:300px;min-height:300px;border:0;background:transparent}.raider-widget-img{display:none}
+@media(max-width:900px){.home-card-grid{grid-template-columns:1fr}.discord-callout{grid-template-columns:1fr;text-align:center}.discord-callout img{max-height:150px}.left-actions{justify-content:center}.home-shell .nav-wrap{margin-top:0}.home-masthead{border-radius:18px}.home-hero{grid-template-columns:1fr}.raider-widget{height:390px;min-height:390px}}
