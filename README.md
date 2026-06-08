@@ -43,5 +43,3 @@ Best options:
 3. Semi-automated: use Zapier/Make to send Discord attachments to a storage bucket, then update `gallery.json` with public image URLs.
 
 Avoid relying on Discord CDN URLs as permanent image hosting; they can change or expire.
-
-Update note: Home nav is now labelled Welcome Home. The separate Welcome Home tab/page has been removed. Raiding uses the Raider.IO mythic boss progress image widget.
