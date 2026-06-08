@@ -45,3 +45,12 @@
 .live-widget{max-width:900px;min-height:360px;border-radius:14px;padding:0;background:rgba(0,0,0,.35)}
 .live-widget .raider-widget{height:360px;min-height:360px}
 @media(max-width:850px){.raid-progress-visual{grid-template-columns:1fr}.raid-tier-card{text-align:center}.raid-scoreline{justify-content:center}.live-widget .raider-widget{height:440px;min-height:440px}}
+
+
+/* Final navigation and homepage alignment fixes */
+.home-shell{width:min(1180px,calc(100% - 32px));padding-top:10px}
+.home-shell .nav-wrap{margin:0 auto 30px;padding:10px;border-radius:24px;max-width:none;background:rgba(7,26,29,.82)}
+.home-shell .nav a{border-radius:999px;min-height:42px;text-transform:none;font-size:inherit;letter-spacing:normal;padding:8px 14px}
+.home-card-grid .feature-card img{height:154px;object-fit:cover;object-position:center}
+.raider-widget-img.force-show{display:block;width:100%;max-width:760px;height:auto;margin:0 auto;border:0}
+.live-widget{display:flex;align-items:center;justify-content:center;padding:14px;min-height:auto}
