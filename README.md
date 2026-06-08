@@ -43,3 +43,9 @@ Best options:
 3. Semi-automated: use Zapier/Make to send Discord attachments to a storage bucket, then update `gallery.json` with public image URLs.
 
 Avoid relying on Discord CDN URLs as permanent image hosting; they can change or expire.
+
+
+## Latest update
+
+- Removed the top logo/title text block above the navigation on every page.
+- Replaced the custom Raider.IO script section with the official Raider.IO boss progress widget iframe on `raiding.html`.
